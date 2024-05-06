@@ -1,22 +1,21 @@
 /* General */
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #F8F8F8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 5%;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.679);
   }
-
 
   header {
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 9%, rgba(10,11,31,1) 93%);
-    /* background-image: linear-gradient(to right,  #cdffd8, #94b9ff); */
-    padding: 20px;
-    text-align: center;
-    
-  }
+    background-image: url('https://www.shutterstock.com/image-vector/cyber-security-data-protection-cyberattacks-600nw-1918033985.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el encabezado */
+    background-position: center; /* Centrar la imagen */
+    color: white; /* Color del texto */
+    text-align: center; /* Alinear el texto al centro */
+    padding: 20px; /* Espaciado interno */
+}
 
-  
+
   .seccion-doble {
     display: flex;
   }
@@ -24,14 +23,14 @@ body {
   .columna-izquierda {
     flex-direction: column;
     flex-basis: 100%; /* Ajusta el ancho */
-    background-color: #FFFF;
+    background-color: #dfd9d9;
     padding: 20px;
-  }
+    }
   
   .columna-derecha {
     flex-direction: column;
     flex-basis: 40%; 
-    background-color: #22c1c3;
+    background-color: #ffffff;
     padding: 20px;
   }
   
@@ -73,8 +72,6 @@ body {
   
   /* Footer */
 footer {
-  background: rgb(10,11,31);
-  background: linear-gradient(283deg, rgba(10,11,31,1) 0%, rgba(34,193,195,1) 63%);
     padding: 10px;
     text-align: center;
   }
