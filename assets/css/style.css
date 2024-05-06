@@ -8,7 +8,8 @@ body {
 
 
   header {
-    background-color: #efefef;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 9%, rgba(10,11,31,1) 93%);
     /* background-image: linear-gradient(to right,  #cdffd8, #94b9ff); */
     padding: 20px;
     text-align: center;
@@ -30,7 +31,7 @@ body {
   .columna-derecha {
     flex-direction: column;
     flex-basis: 40%; 
-    background-color: #efefef;
+    background-color: #22c1c3;
     padding: 20px;
   }
   
@@ -72,7 +73,8 @@ body {
   
   /* Footer */
 footer {
-    background-image: linear-gradient(to right,  #cdffd8, #94b9ff);
+  background: rgb(10,11,31);
+  background: linear-gradient(283deg, rgba(10,11,31,1) 0%, rgba(34,193,195,1) 63%);
     padding: 10px;
     text-align: center;
   }
